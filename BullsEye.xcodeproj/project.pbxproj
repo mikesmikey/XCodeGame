@@ -12,6 +12,7 @@
 		2B5E3CF821E5D7FF00E51266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E3CF621E5D7FF00E51266 /* Main.storyboard */; };
 		2B5E3CFA21E5D80100E51266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E3CF921E5D80100E51266 /* Assets.xcassets */; };
 		2B5E3CFD21E5D80100E51266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E3CFB21E5D80100E51266 /* LaunchScreen.storyboard */; };
+		3F91F7A92201546500FD9B82 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91F7A82201546500FD9B82 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2B5E3CF921E5D80100E51266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5E3CFC21E5D80100E51266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5E3CFE21E5D80100E51266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F91F7A82201546500FD9B82 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2B5E3CF221E5D7FF00E51266 /* AppDelegate.swift */,
 				2B5E3CF421E5D7FF00E51266 /* ViewController.swift */,
 				2B5E3CF621E5D7FF00E51266 /* Main.storyboard */,
+				3F91F7A82201546500FD9B82 /* AboutViewController.swift */,
 				2B5E3CF921E5D80100E51266 /* Assets.xcassets */,
 				2B5E3CFB21E5D80100E51266 /* LaunchScreen.storyboard */,
 				2B5E3CFE21E5D80100E51266 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F91F7A92201546500FD9B82 /* AboutViewController.swift in Sources */,
 				2B5E3CF521E5D7FF00E51266 /* ViewController.swift in Sources */,
 				2B5E3CF321E5D7FF00E51266 /* AppDelegate.swift in Sources */,
 			);

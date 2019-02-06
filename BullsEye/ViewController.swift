@@ -138,12 +138,16 @@ class ViewController: UIViewController {
         roundLabel.text = String(round)
     }
     
-    @IBAction func cleanEveryThing() {
+    @IBAction func startNewGame() {
         round = 0
         totalScore = 0
         
         startNewRound()
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey: nil)
     }
-
 }
 
